@@ -7,7 +7,7 @@
     "start:backend": "cd backend && npm start",
     "start:frontend": "cd frontend && npm start",
     "dev:backend": "cd backend && npm run dev",
-    "start": "concurrently \"npm run dev:backend\" \"npm run start:frontend\"",
+    "start": "node backend/server.js",
     "setup": "npm run install:all"
   },
   "devDependencies": {
